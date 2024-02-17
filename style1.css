@@ -29,11 +29,7 @@ a {
     text-decoration: none;
     min-width: flex;
     max-width: 400px;
-    
-}
-a:hover {
-    transform: scale(1.1); 
-}
+
 
 img {
     width: 100%;
