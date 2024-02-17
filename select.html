@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="icon.png" type="image/png" >
+    <title>Mar X -Select</title>
+</head>
+<body>
+    <img src="logo.png" alt="Channel Logo" id="channelLogo" sizes="192x192">
+    <button onclick="logout()" class="logout-button">Logout</button>
+    <h1>Select Your Choice</h1>
+    
+    <div>
+        <a href="movies.html" class="image-link">
+            <img loading="lazy" src="movie.jpg" alt="Movies">
+            <span class="image-text">Movies</span>
+        </a>
+        <a href="series.html" class="image-link">
+            <img loading="lazy" src="series.jpg" alt="Series">
+            <span class="image-text">Series</span>
+        </a>
+    </div>
+    
+<script src="script.js"></script>
+<script>
+    checkAuthentication();
+</script>    
+</body>
+</html>
