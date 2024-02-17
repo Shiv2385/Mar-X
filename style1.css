@@ -27,12 +27,10 @@ a {
     transition: transform 0.3s; 
     cursor: pointer;
     text-decoration: none;
-    max-width: 500px;
+    max-width: 100%;
+    
 }
 
-a:hover {
-    transform: scale(1.1); 
-}
 
 img {
     width: 100%;
@@ -49,13 +47,13 @@ img {
     padding: 10px;
     transform: translateY(100%);
     transition: transform 0.3s;
-    flex-wrap: wrap;
+
 }
 
 .image-link:hover .image-text {
     transform: translateY(0);
 }
-/* Add a style for the logout button */
+
 .logout-button {
     position: fixed;
     top: 10px;
