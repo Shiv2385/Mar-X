@@ -49,6 +49,7 @@ img {
     padding: 10px;
     transform: translateY(100%);
     transition: transform 0.3s;
+    flex-wrap: wrap;
 }
 
 .image-link:hover .image-text {
