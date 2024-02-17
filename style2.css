@@ -43,9 +43,7 @@ img {
     max-height: auto;
     display: block;
 }
-a:hover {
-    transform: scale(1.1); 
-}
+
 .logout-button {
     position: fixed;
     top: 10px;
