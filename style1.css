@@ -27,6 +27,7 @@ a {
     transition: transform 0.3s; 
     cursor: pointer;
     text-decoration: none;
+    max-width: 500px;
 }
 
 a:hover {
