@@ -27,10 +27,12 @@ a {
     transition: transform 0.3s; 
     cursor: pointer;
     text-decoration: none;
-    max-width: 100%;
+    max-width: flex;
     
 }
-
+a:hover {
+    transform: scale(1.1); 
+}
 
 img {
     width: 100%;
