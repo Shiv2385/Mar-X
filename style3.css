@@ -1,0 +1,40 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(50deg, #05202a, #250202);
+    height: 1vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+    color:rgb(5, 254, 254);
+}
+h1,h2,h3{
+    color: white;
+}
+
+.logout-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    background-color: #750101;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+#channelLogo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px; 
+    height: auto;
+    z-index: 1000;
+    border: white;
+}
