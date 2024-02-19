@@ -3,38 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="icon" href="icon.png" type="image/png" >
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Mar X</title>
-    
+    <title>Mar X </title>
 </head>
 <body>
-    
     <img src="logo.png" alt="Channel Logo" id="channelLogo" sizes="192x192">
-
-    <div id="loginPage"  class="center-content">
-        <h2 >LogIn</h2>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <button type="button" onclick="validateLogin()">LogIn</button>
-        </form>
-        <br>
-        <br>
-        <div id="contactLinks">
-            <a href="mailto:shiv821305@gmail.com" class="contact-link"><i class="fas fa-envelope"></i> Contact via Gmail</a>
-            <br>
-            <br>
-            <a href="https://www.instagram.com/me_innocen_t_boy/" target="_blank" class="contact-link"><i class="fab fa-instagram"></i> Follow on Instagram</a>
-        </div>
+    <button onclick="logout()" class="logout-button">Logout</button>
+    <h1>Mar X</h1>
+    
+    <div>
+        <a href="movies.html" class="image-link">
+            <img loading="lazy" src="movie.jpg" alt="Movies">
+            <span class="image-text">Movies</span>
+        </a>
+        <a href="series.html" class="image-link">
+            <img loading="lazy" src="series.jpg" alt="Series">
+            <span class="image-text">Series</span>
+        </a>
     </div>
-
+    
 <script src="script.js"></script>
-
+<script>
+    checkAuthentication();
+</script>    
 </body>
 </html>
