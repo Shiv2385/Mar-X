@@ -3,7 +3,7 @@ function validateLogin() {
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    if (username === "a" && password === "s") {
+    if (username === "anagha" && password === "shiv") {
         localStorage.setItem("isLoggedIn", "true");
         window.location.href = "index.html";
     } else {
