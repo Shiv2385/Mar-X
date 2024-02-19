@@ -5,7 +5,7 @@ function validateLogin() {
 
     if (username === "a" && password === "s") {
         localStorage.setItem("isLoggedIn", "true");
-        window.location.href = "select.html";
+        window.location.href = "index.html";
     } else {
         alert("Invalid username or password. Please try again.");
     }
@@ -19,16 +19,16 @@ function checkAuthentication() {
     if (isLoggedIn) {
         console.log("User is already authenticated.");
         const currentPage = window.location.pathname;
-        if (currentPage === "/index.html") {
-            window.location.href = "select.html";
+        if (currentPage === "/select.html") {
+            window.location.href = "index.html";
         }
     } else {
-        console.log("User not authenticated. Redirecting to index.html");
-        window.location.href = "index.html";
+        console.log("User not authenticated. Redirecting to select.html");
+        window.location.href = "select.html";
     }
 }
 
 function logout() {
     localStorage.removeItem("isLoggedIn");
-    window.location.href = "index.html";
+    window.location.href = "select.html";
 }
